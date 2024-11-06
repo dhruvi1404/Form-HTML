@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <div style="font-family: sans-serif;">
+        <h2>Amazon Sign up Form</h2>
+    <form action="https://www.amazon.ca/s">
+        <p>
+            <div>  <label for="name"><b> Your Name</b></label> </div>  
+            <input id="name" placeholder="First and Last Name"> 
+        </p>
+        <p>
+            <div>  <label for="email"><b> Email</b></label> </div>  
+            <input id="email" type="email"> 
+        </p>
+        <p>
+            <div>  <label for="password"><b> Password</b></label> </div>  
+            <input id="password" type="password" placeholder="At least 6 characters" minlength="6" maxlength="18">
+        </p>
+        <p>
+            <div>  <label for="password_again"><b>Password Again</b></label></div>
+            <input  id="password_again"  type="password">
+        </p>        
+        <input id="check" type="checkbox" required>
+        <label for="check"> Please accept the terms and condition</label> 
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Create Account on Amazon</button>
+        </p>
+        
+    </form>
+    </div>
+    
+</body>
+</html>
